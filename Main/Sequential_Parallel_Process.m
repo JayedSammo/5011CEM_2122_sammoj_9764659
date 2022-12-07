@@ -1,11 +1,11 @@
-function MainScript(FileName)
+function Sequential_Parallel_Process(FileName)
 %% This Script takes FileName to be tested 
 
 ExploreData(FileName)
 LoadAllData(FileName)
 LoadHours(FileName)
 LoadAllHours(FileName)
-MainTest(FileName)
+Text_NaN_Test(FileName)
 SequentialProcessing(FileName)
 
 %% This section runs parallel processing
